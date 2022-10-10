@@ -13,7 +13,7 @@ import { DatabaseConfig, RootConfig, TableConfig } from './config';
       // load: fileLoader(),
       load: directoryLoader({
         
-        directory: `/home/camilo/Documentos/trabajo/nestjs/Musala/1juv6/config/env`,
+        directory: `***/config/env`,
 
       //   /* other cosmiconfig options */
       }),
